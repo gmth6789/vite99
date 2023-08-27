@@ -39,7 +39,11 @@ const currentView = computed(() => {
 								<div class="diygw-grid-icon diygw-avatar" style="">
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid1.png" />
 								</div>
-								<div class="diygw-grid-title">หน้าหลัก</div>
+								<div class="diygw-grid-title">
+                <router-link to="/">
+                หน้าหลัก
+                </router-link>
+                </div>
 							</div>
 						</button>
 						<button class="diygw-action">
@@ -47,33 +51,54 @@ const currentView = computed(() => {
 								<div class="diygw-grid-icon diygw-avatar" style="">
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid2.png" />
 								</div>
-								<div class="diygw-grid-title">ภารกิจ</div>
+								<div class="diygw-grid-title">
+                <router-link to="/mission">
+                ภารกิจ
+                </router-link>
+                </div>
 							</div>
 						</button>
+
 						<button class="diygw-action">
 							<div class="diygw-grid-inner">
 								<div class="diygw-grid-icon diygw-avatar" style="">
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid3.png" />
 								</div>
-								<div class="diygw-grid-title">อันดับ</div>
+								<div class="diygw-grid-title">
+                <router-link to="/rank">
+                อันดับ
+                </router-link>
+                </div>
 							</div>
 						</button>
+
             <button class="diygw-action">
 							<div class="diygw-grid-inner">
 								<div class="diygw-grid-icon diygw-avatar" style="">
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid5.png" />
 								</div>
-								<div class="diygw-grid-title">แชท</div>
+								<div class="diygw-grid-title">
+                <router-link to="/chat">
+                แชท
+                </router-link>
+                </div>
 							</div>
 						</button>
+
+
 						<button class="diygw-action">
 							<div class="diygw-grid-inner">
 								<div class="diygw-grid-icon diygw-avatar" style="">
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid4.png" />
 								</div>
-								<div class="diygw-grid-title">ข้อมูล</div>
+								<div class="diygw-grid-title">
+                <router-link to="/profile">
+                ข้อมูล
+                </router-link>
+                </div>
 							</div>
 						</button>
+            
 					</div>
 				</div>
 
