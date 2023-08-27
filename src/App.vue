@@ -1,10 +1,11 @@
 <script setup>
+
 import { ref, computed } from 'vue'
-import Home from './pages/Home.vue'
-import Mission from './pages/Mission.vue'
-import Rank from './pages/Rank.vue'
-import Profile from './pages/Profile.vue'
-import NotFound from './pages/NotFound.vue'
+import Home from './views/Home.vue'
+import Mission from './views/Mission.vue'
+import Rank from './views/Rank.vue'
+import Profile from './views/Profile.vue'
+import NotFound from './views/NotFound.vue'
 
 const routes = {
 '/': Home,
@@ -40,7 +41,7 @@ const currentView = computed(() => {
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid1.png" />
 								</div>
 								<div class="diygw-grid-title">
-                <router-link to="/">
+                <router-link to="#/">
                 หน้าหลัก
                 </router-link>
                 </div>
@@ -49,12 +50,14 @@ const currentView = computed(() => {
 						<button class="diygw-action">
 							<div class="diygw-grid-inner">
 								<div class="diygw-grid-icon diygw-avatar" style="">
+                <router-view to="/mission">
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid2.png" />
+                </router-view>
 								</div>
 								<div class="diygw-grid-title">
-                <router-link to="/mission">
+                
                 ภารกิจ
-                </router-link>
+              
                 </div>
 							</div>
 						</button>
@@ -98,7 +101,7 @@ const currentView = computed(() => {
                 </div>
 							</div>
 						</button>
-            
+
 					</div>
 				</div>
 
