@@ -1,5 +1,9 @@
 <script setup>
-
+// import './views/Home.vue';
+// import './views/Mission.vue';
+// import './views/Profile.vue';
+// import './views/Rank.vue';
+// import './views/Chat.vue';
 
 
 </script>
@@ -22,7 +26,7 @@
 									<img mode="aspectFit" class="diygw-avatar-img" src="./static/grid1.png" />
 								</div>
 								<div class="diygw-grid-title">
-                <router-link to="#/">
+                <router-link to="/home">
                 หน้าหลัก
                 </router-link>
                 </div>
