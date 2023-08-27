@@ -30,7 +30,7 @@ const currentView = computed(() => {
   <a href="#/mission">Mission</a> |
   <a href="#/rank">Rank</a> |
   <a href="#/profile">Profile</a> |
-  <a href="#/non-existent-path">Broken Link</a>
+
   <component :is="currentView" />
 </template>
 
