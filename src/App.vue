@@ -14,7 +14,10 @@
 				<div class="diygw-title diygw-top solid-bottom" style="color: white; background: #ff5098">
 					<div class="title flex1 text-center">หน้าหลัก</div>
 				</div>
-
+<div class="flex flex-wrap diygw-col-0 items-stretch flex9-clz">
+					<div class="diygw-col-0 text3-clz">กิจกรรมพิเศษ</div>
+					<img src="./static/sd.png" class="image-size diygw-image diygw-col-0 image-clz" mode="heightFix" />
+				</div>
 
 
 
