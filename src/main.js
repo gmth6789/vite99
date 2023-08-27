@@ -1,8 +1,12 @@
-import { createApp } from 'vue'
+import { createApp } from 'vue';
 import './style.css';
 import './assets/css/index.css';
-import App from './App.vue'
+import App from './App.vue';
 import NutUI from "@nutui/nutui";
 import "@nutui/nutui/dist/style.css";
+import { Video, Button } from '@nutui/nutui';
 
-createApp(App).use(NutUI).mount('#app')
+const app = createApp();
+app.use(Video);
+app.use(NutUI);
+app.mount('#app')

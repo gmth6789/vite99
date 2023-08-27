@@ -1,16 +1,16 @@
 <script>
-import SignupForm from './components/SignupForm';
-import LoginForm from './components/LoginForm';
+// import SignupForm from './components/SignupForm';
+// import LoginForm from './components/LoginForm';
 
-export default {
-  components: { SignForm, LoginForm },
-  data() {
-    return {
-      isLoggedIn: false,
-      showLogin: true
-    }
-  }
-}
+// export default {
+//   components: { SignForm, LoginForm },
+//   data() {
+//     return {
+//       isLoggedIn: false,
+//       showLogin: true
+//     }
+//   }
+// }
 
 </script>
 
