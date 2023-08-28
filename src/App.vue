@@ -1,21 +1,10 @@
 <script>
-// import SignupForm from './components/SignupForm';
-// import LoginForm from './components/LoginForm';
-
-// export default {
-//   components: { SignForm, LoginForm },
-//   data() {
-//     return {
-//       isLoggedIn: false,
-//       showLogin: true
-//     }
-//   }
-// }
 
 </script>
 
 
 <template>
+<div id="app">
 
 <div class="container container22243">
 				<div class="diygw-title diygw-top solid-bottom" style="color: white; background: #ff5098">
@@ -108,8 +97,8 @@
 					<div>https://www.example.com</div>
 				</div>
 				<div class="clearfix"></div>
-
-  <views :is="currentView" />
+<router-view />
+  </div>
 </div>
 </template>
 
